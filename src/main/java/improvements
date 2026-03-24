@@ -1,0 +1,12 @@
+1. Structure and naming conventions 
+2. Junits coverage 
+3. Validation (input)
+4. Retries and exp back off 
+5. rate limiting
+6. circuit breaker
+7. idemp key
+8. failover -
+	save db (data lost )
+9. logging and good exceptional 
+10 performance 
+11 integration - automation - PR in github (regressions)
