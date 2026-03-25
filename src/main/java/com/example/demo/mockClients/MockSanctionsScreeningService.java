@@ -5,11 +5,13 @@ public class MockSanctionsScreeningService {
     public String verify(String requestJson) {
 
         return """
-        {
-          "status": "CLEAR",
-          "match_count": 0,
-          "matches": []
-        }
-        """;
+                {
+                  "verificationType": "SANCTIONS",
+                  "status": "PASS",
+                  "confidence": 100,
+                  "reasons": [],
+                  "timestamp": "2026-03-25T10:15:30Z"
+                }
+                        """;
     }
 }
