@@ -5,11 +5,13 @@ public class MockBiometricService {
     public String verify(String requestJson) {
 
         return """
-        {
-          "status": "PASS",
-          "confidence": 92,
-          "similarity_score": 92.5
-        }
-        """;
+                {
+                  "verificationType": "FACE_MATCH",
+                  "status": "PASS",
+                  "confidence": 92,
+                  "reasons": [],
+                  "timestamp": "2026-03-25T10:15:30Z"
+                }
+                        """;
     }
 }
